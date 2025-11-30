@@ -29,12 +29,12 @@ export default function TrendyClosetApp() {
       price: 76.00,
       designer: 'Calvin Klein',
       description: 'Crafted from a soft, stretch-friendly fabric for all-day ease. Features a straight fit design with comfortable waistband.',
-      image: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80',
+      image: 'htt://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80',
       images: [
-        'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80',
-        'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80',
-        'https://images.unsplash.com/photo-1475178626620-a4d3e4c162f4?w=600&q=80',
-        'https://images.unsplash.com/photo-1560243563-062bfc001d68?w=600&q=80'
+        'htt://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80',
+        'htt://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80',
+        'htt://images.unsplash.com/photo-1475178626620-a4d3e4c162f4?w=600&q=80',
+        'htt://images.unsplash.com/photo-1560243563-062bfc001d68?w=600&q=80'
       ],
       category: 'Man\'s'
     },
@@ -45,12 +45,12 @@ export default function TrendyClosetApp() {
       price: 143.00,
       designer: 'Hugo Boss',
       description: 'Premium tuxedo suit perfect for formal occasions. Tailored fit with satin lapels.',
-      image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&q=80',
+      image: 'htt://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&q=80',
       images: [
-        'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&q=80',
-        'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80',
-        'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80',
-        'https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?w=600&q=80'
+        'htt://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&q=80',
+        'htt://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80',
+        'htt://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80',
+        'htt://images.unsplash.com/photo-1519058082700-08a0b56da9b4?w=600&q=80'
       ],
       category: 'Man\'s'
     },
@@ -61,12 +61,12 @@ export default function TrendyClosetApp() {
       price: 100.00,
       designer: 'Nike',
       description: 'Comfortable cotton blend hoodie with adjustable drawstring hood and kangaroo pocket.',
-      image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80',
+      image: 'htt://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80',
       images: [
-        'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80',
-        'https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=600&q=80',
-        'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80',
-        'https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?w=600&q=80'
+        'htt://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80',
+        'htt://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=600&q=80',
+        'htt://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80',
+        'htt://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?w=600&q=80'
       ],
       category: 'Man\'s'
     },
@@ -77,12 +77,12 @@ export default function TrendyClosetApp() {
       price: 34.00,
       designer: 'Adidas',
       description: 'Premium heavyweight cotton t-shirt with reinforced stitching and comfortable fit.',
-      image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80',
+      image: 'htt://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80',
       images: [
-        'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80',
-        'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80',
-        'https://images.unsplash.com/photo-1622445275463-afa2ab738c34?w=600&q=80',
-        'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=600&q=80'
+        'htt://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80',
+        'htt://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80',
+        'htt://images.unsplash.com/photo-1622445275463-afa2ab738c34?w=600&q=80',
+        'htt://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=600&q=80'
       ],
       category: 'Man\'s'
     }
@@ -166,19 +166,19 @@ export default function TrendyClosetApp() {
             <Text style={styles.paymentSectionTitle}>Pay With</Text>
             <View style={styles.cardLogos}>
               <Image 
-                source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg' }}
+                source={{ uri: 'htt://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg' }}
                 style={styles.cardLogo}
               />
               <Image 
-                source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg' }}
+                source={{ uri: 'htt://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg' }}
                 style={styles.cardLogo}
               />
               <Image 
-                source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/American_Express_logo_%282018%29.svg' }}
+                source={{ uri: 'htt://upload.wikimedia.org/wikipedia/commons/f/fa/American_Express_logo_%282018%29.svg' }}
                 style={styles.cardLogo}
               />
               <Image 
-                source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg' }}
+                source={{ uri: 'htt://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg' }}
                 style={styles.cardLogo}
               />
             </View>
@@ -422,7 +422,7 @@ export default function TrendyClosetApp() {
           {/* Designer Info */}
           <View style={styles.designerInfo}>
             <Image 
-              source={{ uri: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80' }}
+              source={{ uri: 'htt://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80' }}
               style={styles.designerImage}
             />
             <View style={styles.designerText}>
