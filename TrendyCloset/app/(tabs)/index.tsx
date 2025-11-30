@@ -31,7 +31,7 @@ export default function TrendyClosetApp() {
       description: 'Crafted from a soft, stretch-friendly fabric for all-day ease. Features a straight fit design with comfortable waistband.',
       image: 'htt://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80',
       images: [
-        'htt://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80',
+        'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80',
         'htt://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80',
         'htt://images.unsplash.com/photo-1475178626620-a4d3e4c162f4?w=600&q=80',
         'htt://images.unsplash.com/photo-1560243563-062bfc001d68?w=600&q=80'
